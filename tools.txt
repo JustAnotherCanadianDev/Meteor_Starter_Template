@@ -1,0 +1,15 @@
+!!!!REMEMBER!!!!
+
+- All new stylesheet files should be SCSS files, not CSS files
+- when adding a new page, update router.
+- materialize.css documentation can be found here: http://materializecss.com/getting-started.html
+
+---------------------
+
+To link pages to each other with a <a> tag, put the following as the href=""
+
+{{pathFor 'home'}}
+
+where home is any template defined in router.js
+
+---------------------
